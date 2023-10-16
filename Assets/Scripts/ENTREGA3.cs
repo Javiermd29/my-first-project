@@ -27,6 +27,13 @@ public class ENTREGA3 : MonoBehaviour
     //Ejercicio6
     [SerializeField] private int birthYear = 1997;
     private int chineseYear = 1997;
+
+    //Ejercicio7
+    [SerializeField] private int dayHoroscope;
+    [SerializeField] private int yearHoroscope;
+
+    //Ejercicio8
+    [SerializeField] private int dayOfWeek;
     void Start()
     {
         //Ejercicio2
@@ -68,5 +75,17 @@ public class ENTREGA3 : MonoBehaviour
             Debug.Log("Es el año del buey");
         }
         */
+
+        //Ejercicio7
+         
+        //Ejercicio8
+        if (dayOfWeek < 6)
+        {
+            Debug.Log("Estás entre semana");
+        }
+        else
+        {
+            Debug.Log("Estás en fin de semana");
+        }
     }
 }

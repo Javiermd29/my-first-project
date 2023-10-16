@@ -161,9 +161,13 @@ MonoBehaviour:
   num3: 4
   num4: 2
   value: 
-  day: 32
-  month: 15
-  year: 1999
+  day: 29
+  month: 8
+  year: 1997
+  birthYear: 1997
+  dayHoroscope: 0
+  yearHoroscope: 0
+  dayOfWeek: 4
 --- !u!65 &111317928
 BoxCollider:
   m_ObjectHideFlags: 0
