@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 111317930}
   - component: {fileID: 111317929}
   - component: {fileID: 111317928}
-  - component: {fileID: 111317927}
+  - component: {fileID: 111317932}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -143,31 +143,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &111317927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111317926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abda8e3023c78f64aa887ad9193d24af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  num1: 2
-  num2: 9
-  letra: j
-  num3: 4
-  num4: 2
-  value: 
-  day: 29
-  month: 8
-  year: 1997
-  birthYear: 1997
-  dayHoroscope: 0
-  yearHoroscope: 0
-  dayOfWeek: 4
 --- !u!65 &111317928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -254,6 +229,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111317932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111317926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abda8e3023c78f64aa887ad9193d24af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 2
+  num2: 9
+  letter: j
+  num3: 4
+  num4: 2
+  value: 
+  day: -90
+  month: 15
+  year: 5698
+  birthYear: 1997
+  dayHoroscope: 25
+  monthHoroscope: 9
+  dayOfWeek: 4
+  ageDiscount: 25
+  rankDiscount: silver
+  side1: 20
+  side2: 900
+  side3: 80
 --- !u!1 &1905871168
 GameObject:
   m_ObjectHideFlags: 0
