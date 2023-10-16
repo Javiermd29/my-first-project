@@ -37,10 +37,7 @@ public class ENTRGEA02 : MonoBehaviour
         Debug.Log(num3 % num4);
 
         //Ejercicio 9
-        //if (nombre.CompareTo("Mallorca"))
-        //{
-        //    Debug.Log(nombre + " es más largo que Mallorca");
-       // }
+        Debug.Log("Hello! My name is " + nombre);
         
     }
 }
