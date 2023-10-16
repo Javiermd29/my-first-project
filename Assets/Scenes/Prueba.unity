@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 332582638}
   - component: {fileID: 332582637}
   - component: {fileID: 332582636}
+  - component: {fileID: 332582640}
   m_Layer: 0
   m_Name: cilindro 2
   m_TagString: Untagged
@@ -445,6 +446,22 @@ Transform:
   - {fileID: 695779667}
   m_Father: {fileID: 897277053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332582640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332582635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a657922bdc494514490693d55eb081b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 0
+  num2: 0
+  coins: 0
+  hora: 0
 --- !u!1 &695779663
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,13 +791,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0377509, y: -0, z: -0, w: 0.9992872}
-  m_LocalPosition: {x: -1.212, y: 2.993, z: -2.581}
+  m_LocalRotation: {x: -0.027476039, y: 0.5896716, z: 0.018157355, w: 0.8069714}
+  m_LocalPosition: {x: -6.616, y: 2.993, z: -2.581}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -4.327, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.77, y: 72.319, z: -0.178}
 --- !u!1 &1384673712
 GameObject:
   m_ObjectHideFlags: 0
