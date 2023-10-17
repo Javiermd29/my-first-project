@@ -131,7 +131,7 @@ public class ENTREGA3 : MonoBehaviour
                 break;
             case 7: Debug.Log("Conejo");
                 break;
-            case 8: Debug.Log("Dragon");
+            case 8: Debug.Log("Dragón");
                 break;
             case 9: Debug.Log("Serpiente");
                 break;
