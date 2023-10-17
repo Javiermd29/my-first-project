@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class ENTREGA3 : MonoBehaviour
@@ -9,29 +10,29 @@ public class ENTREGA3 : MonoBehaviour
     [SerializeField] private float num1 = 2;
     [SerializeField] private float num2 = 9;
 
-    //Ejercicio2 X
+    //Ejercicio2
     [SerializeField] private string letter = "j";
 
-    //Ejercicio3 X
+    //Ejercicio3
     [SerializeField] private int num3 = 4;
     [SerializeField] private int num4 = 2;
 
     //Ejercicio4
-    [SerializeField] private string value;
+    [SerializeField] private float grade;
 
-    //Ejercicio5 X
+    //Ejercicio5
     [SerializeField] private int day;
     [SerializeField] private int month;
     [SerializeField] private int year;
 
     //Ejercicio6
-    [SerializeField] private int birthYear = 1997;
+    [SerializeField] private int birthYear;
 
     //Ejercicio7
     [SerializeField] private int dayHoroscope;
     [SerializeField] private int monthHoroscope;
 
-    //Ejercicio8 X
+    //Ejercicio8
     [SerializeField] private int dayOfWeek;
 
     //Ejercicio9
@@ -45,6 +46,16 @@ public class ENTREGA3 : MonoBehaviour
 
     void Start()
     {
+        //Ejercicio1
+        if (num1 > num2)
+        {
+            Debug.Log(num1 + " es más grande que " + num2);
+        }
+        else
+        {
+            Debug.Log(num2 + " es más grande que " + num1);
+        }
+
         //Ejercicio2
         if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
         {
@@ -65,6 +76,30 @@ public class ENTREGA3 : MonoBehaviour
             Debug.Log("No es divisible");
         }
 
+        //Ejercicio4
+        if (grade < 0 || grade > 10)
+        {
+            Debug.Log("La nota no es válida");
+        }
+        if (grade >= 9)
+        {
+            Debug.Log("A");
+        }
+        else if (grade >= 7)
+        {
+
+            Debug.Log("B");
+
+        }
+        else if (grade >= 5)
+        {
+            Debug.Log("C");
+        }
+        else
+        {
+            Debug.Log("D");
+        }
+
         //Ejercicio5
         if ((day >= 1 && day <= 31) && (month >= 1 && month <= 12) && (year >= 1))
         {
@@ -76,6 +111,35 @@ public class ENTREGA3 : MonoBehaviour
         }
 
         //Ejercicio 6
+        int resultChinese = birthYear % 12;
+
+        switch (resultChinese)
+        {
+            case 0: Debug.Log("Mono");
+                break;
+            case 1: Debug.Log("Gallo");
+                break;
+            case 2: Debug.Log("Perro");
+                break;
+            case 3: Debug.Log("Cerdo");
+                break;
+            case 4: Debug.Log("Rata");
+                break;
+            case 5: Debug.Log("Buey");
+                break;
+            case 6: Debug.Log("Tigre");
+                break;
+            case 7: Debug.Log("Conejo");
+                break;
+            case 8: Debug.Log("Dragon");
+                break;
+            case 9: Debug.Log("Serpiente");
+                break;
+            case 10: Debug.Log("Caballo");
+                break;
+            case 11: Debug.Log("Cabra");
+                break;
+        }
 
         //Ejercicio7
         switch (monthHoroscope)
